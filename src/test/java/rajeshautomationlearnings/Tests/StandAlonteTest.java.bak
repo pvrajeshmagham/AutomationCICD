@@ -63,7 +63,6 @@ public class StandAlonteTest {
 		 * 
 		 * } }
 		 **/
-		 // added new comments - just checking purpsoe
 
 		Actions a = new Actions(driver);
 		a.sendKeys(driver.findElement(By.cssSelector("[placeholder='Select Country']")), "ind").build().perform();
