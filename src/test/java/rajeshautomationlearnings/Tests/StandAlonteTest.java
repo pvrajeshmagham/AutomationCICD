@@ -63,7 +63,7 @@ public class StandAlonteTest {
 		 * 
 		 * } }
 		 **/
-		 // added new comments - for checking updated or not
+		 // added new comments - for checking updated
 
 		Actions a = new Actions(driver);
 		a.sendKeys(driver.findElement(By.cssSelector("[placeholder='Select Country']")), "ind").build().perform();
